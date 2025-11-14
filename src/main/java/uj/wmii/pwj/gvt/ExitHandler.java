@@ -2,7 +2,7 @@ package uj.wmii.pwj.gvt;
 
 public class ExitHandler {
 
-    final void exit(int code, String message) {
+    public final void exit(int code, String message) {
         System.out.println(message);
         exitOperation(code);
     }
